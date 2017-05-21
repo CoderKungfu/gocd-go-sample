@@ -10,7 +10,7 @@
 
 2. In the `Build` stage, add a `Custom Command Task` to run `gocd.sh`. Put the full path of the checked out git repository:
 
-  Example: `src/github.com/SingaporePower/gocd-go-sample/gocd.sh`
+	Example: `src/github.com/SingaporePower/gocd-go-sample/gocd.sh`
 
 	![Copy shell script](images/run-gocd-sh.png)
 
