@@ -8,15 +8,13 @@
 	
 	![Material setting](images/material-git-setting.png)
 
-2. In the `Build` stage, add a `Task` to copy `gocd.sh` to the workspace.
+2. In the `Build` stage, add a `Custom Command Task` to run `gocd.sh`. Put the full path of the checked out git repository:
 
-	![Copy shell script](images/copy-gocd-sh.png)
+  Example: `src/github.com/SingaporePower/gocd-go-sample/gocd.sh`
 
-3. Next `Task` should run `./gocd.sh`
+	![Copy shell script](images/run-gocd-sh.png)
 
-	![Run shell script](images/run-gocd-sh.png)
-	
-4. Next run should look like this:
+5. Next run should look like this:
 
 	![Result](images/result.png)	
 
